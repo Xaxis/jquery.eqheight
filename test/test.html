@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>jquery.eqheight</title>
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../src/jquery.eqheight.js"></script>
+    <style>
+        .elm {
+            float: left;
+            border: 1px solid black;
+            width: 200px;
+            margin-right: 20px;
+        }
+        .elm-1 {
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="elm elm-1">elm1</div>
+<div class="elm elm-2">elm2</div>
+
+<script>
+    // Plugin Test
+    $('.elm-2').eqheight('.elm-1');
+</script>
+</body>
+</html>

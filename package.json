@@ -1,0 +1,31 @@
+{
+  "name": "jquery.eqheight",
+  "version": "1.0.0",
+  "description": "A simple jQuery plugin for keeping heights equal between elements. ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xaxis/jquery.eqheight.git"
+  },
+  "author": "Wil Neeley <william.neeley@gmail.com> (https://github.com/Xaxis)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Xaxis/jquery.eqheight/issues"
+  },
+  "homepage": "https://github.com/Xaxis/jquery.eqheight#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "matchdep": "^0.3.0"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
+}
